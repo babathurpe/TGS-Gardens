@@ -125,23 +125,24 @@ public class AdminOrderForm extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Manager :: Customer Order Form");
+        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24));
+        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 0, 0));
         jLabel1.setText("CUSTOMER ORDER FORM.");
         jLabel1.setName("jLabel1"); // NOI18N
 
-        ErrorLabel.setFont(new java.awt.Font("Tahoma", 1, 11));
+        ErrorLabel.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         ErrorLabel.setForeground(new java.awt.Color(204, 0, 0));
         ErrorLabel.setText("Please Fill in the fields marked ***");
         ErrorLabel.setName("ErrorLabel"); // NOI18N
 
-        jLabel21.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel21.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(204, 0, 0));
         jLabel21.setText("** All fields are required. **");
         jLabel21.setName("jLabel21"); // NOI18N
@@ -153,7 +154,7 @@ public class AdminOrderForm extends javax.swing.JFrame {
         CustOrderPanel.setName("CustOrderPanel"); // NOI18N
         CustOrderPanel.setPreferredSize(new java.awt.Dimension(500, 680));
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setText("Order Number:");
         jLabel2.setName("jLabel2"); // NOI18N
 
@@ -163,11 +164,11 @@ public class AdminOrderForm extends javax.swing.JFrame {
         SurnameTxt.setName("SurnameTxt"); // NOI18N
         SurnameTxt.setNextFocusableComponent(FirstnameTxt);
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel3.setText("Surname:");
         jLabel3.setName("jLabel3"); // NOI18N
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel5.setText("Address 1:");
         jLabel5.setName("jLabel5"); // NOI18N
 
@@ -177,14 +178,14 @@ public class AdminOrderForm extends javax.swing.JFrame {
         shipAddress1Txt.setName("shipAddress1Txt"); // NOI18N
         shipAddress1Txt.setNextFocusableComponent(TownTxt);
 
-        shipAdd1Lbl.setFont(new java.awt.Font("Tahoma", 1, 11));
+        shipAdd1Lbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         shipAdd1Lbl.setText("Ship to Address 2:");
         shipAdd1Lbl.setName("shipAdd1Lbl"); // NOI18N
 
         TownTxt.setName("TownTxt"); // NOI18N
         TownTxt.setNextFocusableComponent(PostcodeTxt);
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel7.setText("Town:");
         jLabel7.setName("jLabel7"); // NOI18N
 
@@ -196,11 +197,11 @@ public class AdminOrderForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel8.setText("Postcode:");
         jLabel8.setName("jLabel8"); // NOI18N
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel9.setText("Telephone:");
         jLabel9.setName("jLabel9"); // NOI18N
 
@@ -212,27 +213,27 @@ public class AdminOrderForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel10.setText("Email:");
         jLabel10.setName("jLabel10"); // NOI18N
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel11.setText("Shed Type:");
         jLabel11.setName("jLabel11"); // NOI18N
 
-        jLabel12.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel12.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel12.setText("Shed Name:");
         jLabel12.setName("jLabel12"); // NOI18N
 
-        jLabel14.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel14.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel14.setText("Roof Type:");
         jLabel14.setName("jLabel14"); // NOI18N
 
-        jLabel15.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel15.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel15.setText("Extras:");
         jLabel15.setName("jLabel15"); // NOI18N
 
-        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel16.setText("Quantity:");
         jLabel16.setName("jLabel16"); // NOI18N
 
@@ -243,7 +244,7 @@ public class AdminOrderForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel4.setText("Firstname:");
         jLabel4.setName("jLabel4"); // NOI18N
 
@@ -304,35 +305,35 @@ public class AdminOrderForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel17.setFont(new java.awt.Font("Tahoma", 1, 18));
+        jLabel17.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(204, 0, 51));
         jLabel17.setText("Customer Details");
         jLabel17.setName("jLabel17"); // NOI18N
 
-        jLabel18.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel18.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel18.setText("Unit Price:");
         jLabel18.setName("jLabel18"); // NOI18N
 
         UnitPriceTxt.setEditable(false);
         UnitPriceTxt.setName("UnitPriceTxt"); // NOI18N
 
-        jLabel19.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel19.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel19.setText("Deposit:");
         jLabel19.setName("jLabel19"); // NOI18N
 
-        jLabel20.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel20.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel20.setText("Subtotal:");
         jLabel20.setName("jLabel20"); // NOI18N
 
         subtotalTxt.setEditable(false);
         subtotalTxt.setName("subtotalTxt"); // NOI18N
 
-        jLabel24.setFont(new java.awt.Font("Tahoma", 1, 18));
+        jLabel24.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(204, 0, 51));
         jLabel24.setText("Product Details");
         jLabel24.setName("jLabel24"); // NOI18N
 
-        jLabel25.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel25.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel25.setText("Title:");
         jLabel25.setName("jLabel25"); // NOI18N
 
@@ -368,7 +369,7 @@ public class AdminOrderForm extends javax.swing.JFrame {
             }
         });
 
-        SaveBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        SaveBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         SaveBtn.setForeground(new java.awt.Color(102, 0, 102));
         SaveBtn.setText("Save & Send to TGS HQ");
         SaveBtn.setName("SaveBtn"); // NOI18N
@@ -378,7 +379,7 @@ public class AdminOrderForm extends javax.swing.JFrame {
             }
         });
 
-        ResetBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        ResetBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         ResetBtn.setForeground(new java.awt.Color(102, 0, 102));
         ResetBtn.setText("Reset All Fields");
         ResetBtn.setName("ResetBtn"); // NOI18N
@@ -426,18 +427,18 @@ public class AdminOrderForm extends javax.swing.JFrame {
         Address1Txt.setName("Address1Txt"); // NOI18N
         Address1Txt.setNextFocusableComponent(shipAddCheck);
 
-        jLabel26.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel26.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel26.setText("Address 2:");
         jLabel26.setName("jLabel26"); // NOI18N
 
         shipAddressTxt.setName("shipAddressTxt"); // NOI18N
         shipAddressTxt.setNextFocusableComponent(shipAddress1Txt);
 
-        shipAddLbl.setFont(new java.awt.Font("Tahoma", 1, 11));
+        shipAddLbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         shipAddLbl.setText("Ship to Address 1:");
         shipAddLbl.setName("shipAddLbl"); // NOI18N
 
-        shipAddCheck.setFont(new java.awt.Font("Tahoma", 1, 11));
+        shipAddCheck.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         shipAddCheck.setForeground(new java.awt.Color(204, 0, 0));
         shipAddCheck.setText("Ship To Different Address?");
         shipAddCheck.setName("shipAddCheck"); // NOI18N
@@ -465,10 +466,11 @@ public class AdminOrderForm extends javax.swing.JFrame {
         firstnameErr.setName("firstnameErr"); // NOI18N
 
         imgBox.setName("imgBox"); // NOI18N
+        imgBox.setLayout(null);
 
         ImageBox.setName("ImageBox"); // NOI18N
+        imgBox.add(ImageBox);
         ImageBox.setBounds(10, 10, 200, 180);
-        imgBox.add(ImageBox, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         extraPriceTxt.setEditable(false);
         extraPriceTxt.setName("extraPriceTxt"); // NOI18N
@@ -498,16 +500,6 @@ public class AdminOrderForm extends javax.swing.JFrame {
             .addGroup(CustOrderPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel17)
-                    .addGroup(CustOrderPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(OrderNoTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(shipAdd1Lbl)
-                    .addGroup(CustOrderPanelLayout.createSequentialGroup()
-                        .addGap(105, 105, 105)
-                        .addComponent(shipAddCheck)
-                        .addContainerGap(455, Short.MAX_VALUE))
                     .addGroup(CustOrderPanelLayout.createSequentialGroup()
                         .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel24)
@@ -520,8 +512,8 @@ public class AdminOrderForm extends javax.swing.JFrame {
                                 .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(CustOrderPanelLayout.createSequentialGroup()
                                         .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(ComboShedType, javax.swing.GroupLayout.Alignment.TRAILING, 0, 229, Short.MAX_VALUE)
-                                            .addComponent(ComboShedName, javax.swing.GroupLayout.Alignment.TRAILING, 0, 241, Short.MAX_VALUE))
+                                            .addComponent(ComboShedType, javax.swing.GroupLayout.Alignment.TRAILING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(ComboShedName, javax.swing.GroupLayout.Alignment.TRAILING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(shedPriceTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(20, 20, 20))
@@ -531,9 +523,7 @@ public class AdminOrderForm extends javax.swing.JFrame {
                                         .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(extraPriceTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(roofPriceTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(imgBox, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
+                                .addComponent(imgBox, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(CustOrderPanelLayout.createSequentialGroup()
                                 .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel5)
@@ -571,7 +561,7 @@ public class AdminOrderForm extends javax.swing.JFrame {
                                     .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                         .addComponent(Address1Txt, javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(AddressTxt, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 520, Short.MAX_VALUE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(Add1Err)
@@ -602,8 +592,8 @@ public class AdminOrderForm extends javax.swing.JFrame {
                                         .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                             .addComponent(PostcodeTxt)
                                             .addComponent(Emailtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 213, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addComponent(shipAddress1Txt, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
-                                    .addComponent(shipAddressTxt, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE))
+                                    .addComponent(shipAddress1Txt)
+                                    .addComponent(shipAddressTxt))
                                 .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(CustOrderPanelLayout.createSequentialGroup()
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -613,39 +603,52 @@ public class AdminOrderForm extends javax.swing.JFrame {
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(shipAdd1Err)
                                         .addComponent(shipAddErr)))))
-                        .addGap(991, 991, 991))))
-            .addGroup(CustOrderPanelLayout.createSequentialGroup()
-                .addGap(155, 155, 155)
-                .addComponent(SaveBtn)
-                .addGap(18, 18, 18)
-                .addComponent(ResetBtn)
-                .addContainerGap(1239, Short.MAX_VALUE))
-            .addGroup(CustOrderPanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, CustOrderPanelLayout.createSequentialGroup()
+                        .addGap(991, 991, 991))
+                    .addGroup(CustOrderPanelLayout.createSequentialGroup()
                         .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel18)
-                            .addComponent(jLabel16)
-                            .addComponent(jLabel15))
-                        .addGap(34, 34, 34)
-                        .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(ComboExtras, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel17)
                             .addGroup(CustOrderPanelLayout.createSequentialGroup()
-                                .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(UnitPriceTxt, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(QtyTxt, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE))
+                                .addComponent(jLabel2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(qtyErr))))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, CustOrderPanelLayout.createSequentialGroup()
-                        .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel20)
-                            .addComponent(jLabel19))
-                        .addGap(40, 40, 40)
-                        .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(DepositTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 258, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(subtotalTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(1293, 1293, 1293))
+                                .addComponent(OrderNoTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(shipAdd1Lbl)
+                            .addGroup(CustOrderPanelLayout.createSequentialGroup()
+                                .addGap(105, 105, 105)
+                                .addComponent(shipAddCheck)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+            .addGroup(CustOrderPanelLayout.createSequentialGroup()
+                .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(CustOrderPanelLayout.createSequentialGroup()
+                        .addGap(155, 155, 155)
+                        .addComponent(SaveBtn)
+                        .addGap(18, 18, 18)
+                        .addComponent(ResetBtn))
+                    .addGroup(CustOrderPanelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, CustOrderPanelLayout.createSequentialGroup()
+                                .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel18)
+                                    .addComponent(jLabel16)
+                                    .addComponent(jLabel15))
+                                .addGap(34, 34, 34)
+                                .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(ComboExtras, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(CustOrderPanelLayout.createSequentialGroup()
+                                        .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addComponent(UnitPriceTxt, javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(QtyTxt, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(qtyErr))))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, CustOrderPanelLayout.createSequentialGroup()
+                                .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel20)
+                                    .addComponent(jLabel19))
+                                .addGap(40, 40, 40)
+                                .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(DepositTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 258, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(subtotalTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         CustOrderPanelLayout.setVerticalGroup(
             CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -781,7 +784,7 @@ public class AdminOrderForm extends javax.swing.JFrame {
 
         CustOrderScrollPane.setViewportView(CustOrderPanel);
 
-        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         LogOutBtn.setText("Log Out");
         LogOutBtn.setName("LogOutBtn"); // NOI18N
         LogOutBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -790,7 +793,7 @@ public class AdminOrderForm extends javax.swing.JFrame {
             }
         });
 
-        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         BackBtn.setText("Back");
         BackBtn.setName("BackBtn"); // NOI18N
         BackBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -806,18 +809,21 @@ public class AdminOrderForm extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(20, 20, 20)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(ErrorLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel1)))
-                    .addComponent(CustOrderScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 768, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(271, 271, 271)
-                        .addComponent(BackBtn)
-                        .addGap(58, 58, 58)
-                        .addComponent(LogOutBtn)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(20, 20, 20)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(ErrorLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel1)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(271, 271, 271)
+                                .addComponent(BackBtn)
+                                .addGap(58, 58, 58)
+                                .addComponent(LogOutBtn)))
+                        .addGap(0, 317, Short.MAX_VALUE))
+                    .addComponent(CustOrderScrollPane))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

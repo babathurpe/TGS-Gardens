@@ -75,6 +75,7 @@ public class AdminPayroll extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Manager :: Employees Info / Payroll");
+        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
@@ -87,7 +88,7 @@ public class AdminPayroll extends javax.swing.JFrame {
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Employee Info", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Aparajita", 1, 18), new java.awt.Color(0, 102, 102))); // NOI18N
         jPanel4.setName("jPanel4"); // NOI18N
 
-        AddBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        AddBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         AddBtn.setText("Add/Save");
         AddBtn.setName("AddBtn"); // NOI18N
         AddBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -96,7 +97,7 @@ public class AdminPayroll extends javax.swing.JFrame {
             }
         });
 
-        DeleteBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        DeleteBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         DeleteBtn.setText("Delete");
         DeleteBtn.setName("DeleteBtn"); // NOI18N
         DeleteBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -105,17 +106,17 @@ public class AdminPayroll extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel3.setText("Surname:");
         jLabel3.setName("jLabel3"); // NOI18N
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel5.setText("Employee ID:");
         jLabel5.setName("jLabel5"); // NOI18N
 
         EmpIdTxt.setName("EmpIdTxt"); // NOI18N
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel4.setText("Firstname:");
         jLabel4.setName("jLabel4"); // NOI18N
 
@@ -123,7 +124,7 @@ public class AdminPayroll extends javax.swing.JFrame {
 
         FirstnameTxt.setName("FirstnameTxt"); // NOI18N
 
-        UpdateBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        UpdateBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         UpdateBtn.setText("Update");
         UpdateBtn.setName("UpdateBtn"); // NOI18N
         UpdateBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -132,7 +133,7 @@ public class AdminPayroll extends javax.swing.JFrame {
             }
         });
 
-        salaryLbl1.setFont(new java.awt.Font("Tahoma", 1, 11));
+        salaryLbl1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         salaryLbl1.setText("Salary Paid:");
         salaryLbl1.setName("salaryLbl1"); // NOI18N
 
@@ -144,12 +145,12 @@ public class AdminPayroll extends javax.swing.JFrame {
 
         SearchTxt1.setName("SearchTxt1"); // NOI18N
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 2, 11));
+        jLabel8.setFont(new java.awt.Font("Tahoma", 2, 11)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 0, 51));
         jLabel8.setText("Search with Employee with Employee's ID Number.");
         jLabel8.setName("jLabel8"); // NOI18N
 
-        SearchBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        SearchBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         SearchBtn.setText("Search");
         SearchBtn.setName("SearchBtn"); // NOI18N
         SearchBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -183,14 +184,14 @@ public class AdminPayroll extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        salaryLbl.setFont(new java.awt.Font("Tahoma", 1, 11));
+        salaryLbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         salaryLbl.setText("Salary Paid:");
         salaryLbl.setName("salaryLbl"); // NOI18N
 
         salaryTxt.setEditable(false);
         salaryTxt.setName("salaryTxt"); // NOI18N
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel6.setText("Staff Type:");
         jLabel6.setName("jLabel6"); // NOI18N
 
@@ -326,7 +327,7 @@ public class AdminPayroll extends javax.swing.JFrame {
                 .addContainerGap(37, Short.MAX_VALUE))
         );
 
-        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         LogOutBtn.setText("Log Out");
         LogOutBtn.setName("LogOutBtn"); // NOI18N
         LogOutBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -335,7 +336,7 @@ public class AdminPayroll extends javax.swing.JFrame {
             }
         });
 
-        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         BackBtn.setText("Back");
         BackBtn.setName("BackBtn"); // NOI18N
         BackBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -344,7 +345,7 @@ public class AdminPayroll extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setFont(new java.awt.Font("Modern No. 20", 1, 24));
+        jLabel7.setFont(new java.awt.Font("Modern No. 20", 1, 24)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(153, 0, 0));
         jLabel7.setText("TIMBERLAND GARDEN SHEDS ADMIN - EMPLOYEES PAYROLL.");
         jLabel7.setName("jLabel7"); // NOI18N

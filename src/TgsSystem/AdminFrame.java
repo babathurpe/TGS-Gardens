@@ -56,14 +56,16 @@ public class AdminFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("TGS :: Manager Home");
+        setResizable(false);
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Main Menu", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Aharoni", 1, 24), new java.awt.Color(255, 102, 0))); // NOI18N
         jPanel1.setForeground(new java.awt.Color(240, 240, 240));
         jPanel1.setName("jPanel1"); // NOI18N
 
-        BtnCustForm.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        BtnCustForm.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         BtnCustForm.setForeground(new java.awt.Color(0, 102, 102));
-        BtnCustForm.setText("Customer Form");
+        BtnCustForm.setText("Customer Order Form");
+        BtnCustForm.setToolTipText("");
         BtnCustForm.setName("BtnCustForm"); // NOI18N
         BtnCustForm.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,7 +73,7 @@ public class AdminFrame extends javax.swing.JFrame {
             }
         });
 
-        BtnPrintCustInv.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        BtnPrintCustInv.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         BtnPrintCustInv.setForeground(new java.awt.Color(0, 102, 102));
         BtnPrintCustInv.setText("Print Customer Orders");
         BtnPrintCustInv.setName("BtnPrintCustInv"); // NOI18N
@@ -81,7 +83,7 @@ public class AdminFrame extends javax.swing.JFrame {
             }
         });
 
-        BtnStatements.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        BtnStatements.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         BtnStatements.setForeground(new java.awt.Color(0, 102, 102));
         BtnStatements.setText("Centers' Commission");
         BtnStatements.setName("BtnStatements"); // NOI18N
@@ -91,7 +93,7 @@ public class AdminFrame extends javax.swing.JFrame {
             }
         });
 
-        BtnPayroll.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        BtnPayroll.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         BtnPayroll.setForeground(new java.awt.Color(0, 102, 102));
         BtnPayroll.setText("Workers' Payroll");
         BtnPayroll.setName("BtnPayroll"); // NOI18N
@@ -101,7 +103,7 @@ public class AdminFrame extends javax.swing.JFrame {
             }
         });
 
-        BtnInvoices.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        BtnInvoices.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         BtnInvoices.setForeground(new java.awt.Color(0, 102, 102));
         BtnInvoices.setText("Customer Invoices");
         BtnInvoices.setName("BtnInvoices"); // NOI18N
@@ -111,7 +113,7 @@ public class AdminFrame extends javax.swing.JFrame {
             }
         });
 
-        UpdateCenterBtn.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        UpdateCenterBtn.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         UpdateCenterBtn.setForeground(new java.awt.Color(0, 102, 102));
         UpdateCenterBtn.setText("Add/Delete Garden Centers");
         UpdateCenterBtn.setName("UpdateCenterBtn"); // NOI18N
@@ -121,7 +123,7 @@ public class AdminFrame extends javax.swing.JFrame {
             }
         });
 
-        BtnViewSuppliers.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        BtnViewSuppliers.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         BtnViewSuppliers.setForeground(new java.awt.Color(0, 102, 102));
         BtnViewSuppliers.setText("View Suppliers' Invoices");
         BtnViewSuppliers.setName("BtnViewSuppliers"); // NOI18N
@@ -131,7 +133,7 @@ public class AdminFrame extends javax.swing.JFrame {
             }
         });
 
-        BtnLogOut.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        BtnLogOut.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         BtnLogOut.setForeground(new java.awt.Color(0, 102, 102));
         BtnLogOut.setText("Log Out");
         BtnLogOut.setName("BtnLogOut"); // NOI18N
@@ -141,7 +143,7 @@ public class AdminFrame extends javax.swing.JFrame {
             }
         });
 
-        AddProdBtn.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        AddProdBtn.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         AddProdBtn.setForeground(new java.awt.Color(0, 102, 102));
         AddProdBtn.setText("Add Products");
         AddProdBtn.setName("AddProdBtn"); // NOI18N
@@ -197,7 +199,7 @@ public class AdminFrame extends javax.swing.JFrame {
                 .addGap(74, 74, 74))
         );
 
-        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24));
+        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 0, 0));
         jLabel1.setText("TIMBERLAND GARDEN SHEDS ::: WELCOME TO ADMIN HOME.");
         jLabel1.setName("jLabel1"); // NOI18N

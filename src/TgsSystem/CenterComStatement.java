@@ -46,8 +46,9 @@ public class CenterComStatement extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("TGS Center :: Commission Statement");
+        setResizable(false);
 
-        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         LogOutBtn.setText("Log Out");
         LogOutBtn.setName("LogOutBtn"); // NOI18N
         LogOutBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -56,7 +57,7 @@ public class CenterComStatement extends javax.swing.JFrame {
             }
         });
 
-        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         BackBtn.setText("Back");
         BackBtn.setName("BackBtn"); // NOI18N
         BackBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -65,7 +66,7 @@ public class CenterComStatement extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24));
+        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 0, 0));
         jLabel1.setText("TIMBERLAND GARDEN SHEDS - Commision Statement.");
         jLabel1.setName("jLabel1"); // NOI18N

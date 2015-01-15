@@ -61,13 +61,14 @@ public class CenterPrintCustOrder extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("TGS Center :: Print Customer Invoice");
+        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24));
+        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 0, 0));
         jLabel1.setText("TIMBERLAND GARDEN SHEDS ADMIN - VIEW ORDER FORM.");
         jLabel1.setName("jLabel1"); // NOI18N
@@ -77,12 +78,12 @@ public class CenterPrintCustOrder extends javax.swing.JFrame {
 
         SearchTxt.setName("SearchTxt"); // NOI18N
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 3, 11));
+        jLabel11.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 0, 51));
         jLabel11.setText("Search for orders by Order ID.");
         jLabel11.setName("jLabel11"); // NOI18N
 
-        SearchBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        SearchBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         SearchBtn.setText("Search");
         SearchBtn.setName("SearchBtn"); // NOI18N
         SearchBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -118,10 +119,10 @@ public class CenterPrintCustOrder extends javax.swing.JFrame {
                 .addComponent(jLabel11))
         );
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Print Customer Invoice", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Print Customer Invoice", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12))); // NOI18N
         jPanel1.setName("jPanel1"); // NOI18N
 
-        BtnPrint.setFont(new java.awt.Font("Georgia", 1, 14));
+        BtnPrint.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
         BtnPrint.setForeground(new java.awt.Color(255, 0, 153));
         BtnPrint.setText("Print Customer Invoice");
         BtnPrint.setName("BtnPrint"); // NOI18N
@@ -144,11 +145,11 @@ public class CenterPrintCustOrder extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(BtnPrint, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE)
+                .addComponent(BtnPrint, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         LogOutBtn.setText("Log Out");
         LogOutBtn.setName("LogOutBtn"); // NOI18N
         LogOutBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -157,7 +158,7 @@ public class CenterPrintCustOrder extends javax.swing.JFrame {
             }
         });
 
-        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         BackBtn.setText("Back");
         BackBtn.setName("BackBtn"); // NOI18N
         BackBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -265,8 +266,8 @@ public class CenterPrintCustOrder extends javax.swing.JFrame {
                 //Fetch and put available data from database and append to text area.
                 CustInvTxt.append("    Garden Center Name:\t" + gardencentername +"\n");
                 CustInvTxt.append("    Order Date: \t\t" + date + "\n\n");
-                CustInvTxt.append("\tCustomer Details\n");
-                CustInvTxt.append("                            _______________\n");
+                CustInvTxt.append("\t Customer Details\n\t__________________\n");
+                //CustInvTxt.append("\t_______________\n");
                 CustInvTxt.append("    Order Number: \t" + orderId + "\n");
                 CustInvTxt.append("    Customer Name: \t" + firstname + "  "+ surname +" \n");
                 CustInvTxt.append("    Phone Number: \t" + phone + "\n");
@@ -277,8 +278,8 @@ public class CenterPrintCustOrder extends javax.swing.JFrame {
                 CustInvTxt.append("    Shipping Address 1: \t" + shipadd1 + "\n");
                 CustInvTxt.append("    Town: \t\t" + town + "\n");
                 CustInvTxt.append("    Postcode: \t\t" + postcode + "\n\n");
-                CustInvTxt.append("\tProducts Details\n");
-                CustInvTxt.append("                            ______________\n");
+                CustInvTxt.append("\t Products Details\n");
+                CustInvTxt.append("\t________________\n");
                 CustInvTxt.append("    Shed Type: \t\t" + shedtype + "\n");
                 CustInvTxt.append("    Shed Name: \t\t" + shedname + "\n");
                 CustInvTxt.append("    Roof Type: \t\t" + rooftype + "\n");

@@ -57,13 +57,14 @@ public class AdminCustOrderInvoice extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Manager :: Customer Order Invoice");
+        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
             }
         });
 
-        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         LogOutBtn.setText("Log Out");
         LogOutBtn.setName("LogOutBtn"); // NOI18N
         LogOutBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -72,7 +73,7 @@ public class AdminCustOrderInvoice extends javax.swing.JFrame {
             }
         });
 
-        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         BackBtn.setText("Back");
         BackBtn.setName("BackBtn"); // NOI18N
         BackBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -81,7 +82,7 @@ public class AdminCustOrderInvoice extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24));
+        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 0, 0));
         jLabel1.setText("TIMBERLAND GARDEN SHEDS ADMIN - CUSTOMER INVOICE.");
         jLabel1.setName("jLabel1"); // NOI18N
@@ -91,12 +92,12 @@ public class AdminCustOrderInvoice extends javax.swing.JFrame {
 
         SearchTxt.setName("SearchTxt"); // NOI18N
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 2, 11));
+        jLabel2.setFont(new java.awt.Font("Tahoma", 2, 11)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 0, 51));
         jLabel2.setText("Search by TGS Center.");
         jLabel2.setName("jLabel2"); // NOI18N
 
-        SearchBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        SearchBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         SearchBtn.setText("Search");
         SearchBtn.setName("SearchBtn"); // NOI18N
         SearchBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -136,6 +137,7 @@ public class AdminCustOrderInvoice extends javax.swing.JFrame {
 
         jScrollPane2.setName("jScrollPane2"); // NOI18N
 
+        custOrderInvTable.setAutoCreateRowSorter(true);
         custOrderInvTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},

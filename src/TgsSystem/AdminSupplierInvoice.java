@@ -82,13 +82,14 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Manager :: Suppliers' Invoice");
+        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
             }
         });
 
-        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         LogOutBtn.setText("Log Out");
         LogOutBtn.setName("LogOutBtn"); // NOI18N
         LogOutBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -97,7 +98,7 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
             }
         });
 
-        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         BackBtn.setText("Back");
         BackBtn.setName("BackBtn"); // NOI18N
         BackBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -106,7 +107,7 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Modern No. 20", 1, 24));
+        jLabel3.setFont(new java.awt.Font("Modern No. 20", 1, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(153, 0, 0));
         jLabel3.setText("TIMBERLAND GARDEN SHEDS ADMIN - SUPPLIERS' INVOICE.");
         jLabel3.setName("jLabel3"); // NOI18N
@@ -164,7 +165,7 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Supplier Info", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Aparajita", 1, 18), new java.awt.Color(0, 102, 102))); // NOI18N
         jPanel4.setName("jPanel4"); // NOI18N
 
-        AddBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        AddBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         AddBtn.setText("Add/Save");
         AddBtn.setName("AddBtn"); // NOI18N
         AddBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -173,7 +174,7 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
             }
         });
 
-        DeleteBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        DeleteBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         DeleteBtn.setText("Delete");
         DeleteBtn.setName("DeleteBtn"); // NOI18N
         DeleteBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -182,17 +183,17 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel4.setText("Item:");
         jLabel4.setName("jLabel4"); // NOI18N
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel5.setText("Order No:");
         jLabel5.setName("jLabel5"); // NOI18N
 
         OrderNoTxt.setName("OrderNoTxt"); // NOI18N
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel6.setText("Supplier Name:");
         jLabel6.setName("jLabel6"); // NOI18N
 
@@ -200,7 +201,7 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
 
         SupplierNameTxt.setName("SupplierNameTxt"); // NOI18N
 
-        UpdateBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        UpdateBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         UpdateBtn.setText("Update");
         UpdateBtn.setName("UpdateBtn"); // NOI18N
         UpdateBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -209,7 +210,7 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel7.setText("Quantity:");
         jLabel7.setName("jLabel7"); // NOI18N
 
@@ -217,34 +218,34 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
 
         UnitPriceTxt.setName("UnitPriceTxt"); // NOI18N
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel8.setText("Unit Price:");
         jLabel8.setName("jLabel8"); // NOI18N
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel9.setText("Total:");
         jLabel9.setName("jLabel9"); // NOI18N
 
         TotalTxt.setName("TotalTxt"); // NOI18N
 
-        DeliveryLbl.setFont(new java.awt.Font("Tahoma", 1, 11));
+        DeliveryLbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         DeliveryLbl.setText("Delivery Status:");
         DeliveryLbl.setName("DeliveryLbl"); // NOI18N
 
         DeliveryCombo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Choose Status", "Yes", "No" }));
         DeliveryCombo.setName("DeliveryCombo"); // NOI18N
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 0, 0));
         jLabel1.setText("** Please Fill in all fields. **");
         jLabel1.setName("jLabel1"); // NOI18N
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 0, 0));
         jLabel2.setText(" If goods have been supplied, then select appropriate Delivery Status.");
         jLabel2.setName("jLabel2"); // NOI18N
 
-        DeliveryLbl1.setFont(new java.awt.Font("Tahoma", 1, 11));
+        DeliveryLbl1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         DeliveryLbl1.setText("Delivery Status:");
         DeliveryLbl1.setName("DeliveryLbl1"); // NOI18N
 
@@ -256,12 +257,12 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
 
         SearchTxt.setName("SearchTxt"); // NOI18N
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 2, 11));
+        jLabel11.setFont(new java.awt.Font("Tahoma", 2, 11)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 0, 51));
         jLabel11.setText("Search Supplier by Supplier's Order Number.");
         jLabel11.setName("jLabel11"); // NOI18N
 
-        SearchBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        SearchBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         SearchBtn.setText("Search");
         SearchBtn.setName("SearchBtn"); // NOI18N
         SearchBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -300,7 +301,7 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
         dateTxt.setEditable(false);
         dateTxt.setName("dateTxt"); // NOI18N
 
-        dateLbl.setFont(new java.awt.Font("Tahoma", 1, 11));
+        dateLbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         dateLbl.setText("Date / Time:");
         dateLbl.setName("dateLbl"); // NOI18N
 
@@ -313,7 +314,6 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(0, 0, 0)
                         .addComponent(AddBtn)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(UpdateBtn)
@@ -335,7 +335,7 @@ public class AdminSupplierInvoice extends javax.swing.JFrame {
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel4Layout.createSequentialGroup()
                             .addComponent(jLabel9)
                             .addGap(62, 62, 62)
-                            .addComponent(TotalTxt))
+                            .addComponent(TotalTxt, javax.swing.GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE))
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel4Layout.createSequentialGroup()
                             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jLabel5)

@@ -127,6 +127,7 @@ public class CenterOrderForm extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("TGS Center :: Customer Order Form");
+        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
@@ -140,7 +141,7 @@ public class CenterOrderForm extends javax.swing.JFrame {
         CustOrderPanel.setName("CustOrderPanel"); // NOI18N
         CustOrderPanel.setPreferredSize(new java.awt.Dimension(500, 750));
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setText("Order Number:");
         jLabel2.setName("jLabel2"); // NOI18N
 
@@ -149,11 +150,11 @@ public class CenterOrderForm extends javax.swing.JFrame {
 
         SurnameTxt.setName("SurnameTxt"); // NOI18N
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel3.setText("Surname:");
         jLabel3.setName("jLabel3"); // NOI18N
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel5.setText("Address 1:");
         jLabel5.setName("jLabel5"); // NOI18N
 
@@ -161,13 +162,13 @@ public class CenterOrderForm extends javax.swing.JFrame {
 
         shipAddress1Txt.setName("shipAddress1Txt"); // NOI18N
 
-        shipAdd1Lbl.setFont(new java.awt.Font("Tahoma", 1, 11));
+        shipAdd1Lbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         shipAdd1Lbl.setText("Ship to Address 2:");
         shipAdd1Lbl.setName("shipAdd1Lbl"); // NOI18N
 
         TownTxt.setName("TownTxt"); // NOI18N
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel7.setText("Town:");
         jLabel7.setName("jLabel7"); // NOI18N
 
@@ -178,11 +179,11 @@ public class CenterOrderForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel8.setText("Postcode:");
         jLabel8.setName("jLabel8"); // NOI18N
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel9.setText("Telephone:");
         jLabel9.setName("jLabel9"); // NOI18N
 
@@ -204,23 +205,23 @@ public class CenterOrderForm extends javax.swing.JFrame {
         jLabel10.setText("Email:");
         jLabel10.setName("jLabel10"); // NOI18N
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel11.setText("Shed Type:");
         jLabel11.setName("jLabel11"); // NOI18N
 
-        jLabel12.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel12.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel12.setText("Shed Name:");
         jLabel12.setName("jLabel12"); // NOI18N
 
-        jLabel14.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel14.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel14.setText("Roof Type:");
         jLabel14.setName("jLabel14"); // NOI18N
 
-        jLabel15.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel15.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel15.setText("Extras:");
         jLabel15.setName("jLabel15"); // NOI18N
 
-        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel16.setText("Quantity:");
         jLabel16.setName("jLabel16"); // NOI18N
 
@@ -231,7 +232,7 @@ public class CenterOrderForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel4.setText("Firstname:");
         jLabel4.setName("jLabel4"); // NOI18N
 
@@ -291,44 +292,44 @@ public class CenterOrderForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel17.setFont(new java.awt.Font("Tahoma", 1, 18));
+        jLabel17.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(204, 0, 51));
         jLabel17.setText("Customer Details");
         jLabel17.setName("jLabel17"); // NOI18N
 
-        jLabel18.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel18.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel18.setText("Unit Price:");
         jLabel18.setName("jLabel18"); // NOI18N
 
         UnitPriceTxt.setEditable(false);
         UnitPriceTxt.setName("UnitPriceTxt"); // NOI18N
 
-        jLabel19.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel19.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel19.setText("Deposit:");
         jLabel19.setName("jLabel19"); // NOI18N
 
-        jLabel20.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel20.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel20.setText("Subtotal:");
         jLabel20.setName("jLabel20"); // NOI18N
 
-        jLabel22.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel22.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel22.setText("Garden Center:");
         jLabel22.setName("jLabel22"); // NOI18N
 
         subtotalTxt.setEditable(false);
         subtotalTxt.setName("subtotalTxt"); // NOI18N
 
-        jLabel23.setFont(new java.awt.Font("Tahoma", 1, 18));
+        jLabel23.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(204, 0, 51));
         jLabel23.setText("Garden Center Details");
         jLabel23.setName("jLabel23"); // NOI18N
 
-        jLabel24.setFont(new java.awt.Font("Tahoma", 1, 18));
+        jLabel24.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(204, 0, 51));
         jLabel24.setText("Product Details");
         jLabel24.setName("jLabel24"); // NOI18N
 
-        jLabel25.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel25.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel25.setText("Title:");
         jLabel25.setName("jLabel25"); // NOI18N
 
@@ -408,17 +409,17 @@ public class CenterOrderForm extends javax.swing.JFrame {
 
         Address1Txt.setName("Address1Txt"); // NOI18N
 
-        jLabel26.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel26.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel26.setText("Address 2:");
         jLabel26.setName("jLabel26"); // NOI18N
 
         shipAddressTxt.setName("shipAddressTxt"); // NOI18N
 
-        shipAddLbl.setFont(new java.awt.Font("Tahoma", 1, 11));
+        shipAddLbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         shipAddLbl.setText("Ship to Address 1:");
         shipAddLbl.setName("shipAddLbl"); // NOI18N
 
-        shipAddCheck.setFont(new java.awt.Font("Tahoma", 1, 11));
+        shipAddCheck.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         shipAddCheck.setForeground(new java.awt.Color(204, 0, 0));
         shipAddCheck.setText("Ship To Different Address?");
         shipAddCheck.setName("shipAddCheck"); // NOI18N
@@ -444,7 +445,7 @@ public class CenterOrderForm extends javax.swing.JFrame {
         firstnameErr.setText("***");
         firstnameErr.setName("firstnameErr"); // NOI18N
 
-        saveBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        saveBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         saveBtn.setForeground(new java.awt.Color(102, 0, 102));
         saveBtn.setText("Submit");
         saveBtn.setName("saveBtn"); // NOI18N
@@ -454,7 +455,7 @@ public class CenterOrderForm extends javax.swing.JFrame {
             }
         });
 
-        resetBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        resetBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         resetBtn.setForeground(new java.awt.Color(102, 0, 102));
         resetBtn.setText("Reset");
         resetBtn.setName("resetBtn"); // NOI18N
@@ -465,10 +466,11 @@ public class CenterOrderForm extends javax.swing.JFrame {
         });
 
         imgBox.setName("imgBox"); // NOI18N
+        imgBox.setLayout(null);
 
         ImageBox.setName("ImageBox"); // NOI18N
+        imgBox.add(ImageBox);
         ImageBox.setBounds(10, 10, 200, 180);
-        imgBox.add(ImageBox, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         shedPriceTxt.setEditable(false);
         shedPriceTxt.setName("shedPriceTxt"); // NOI18N
@@ -573,8 +575,8 @@ public class CenterOrderForm extends javax.swing.JFrame {
                                             .addComponent(jLabel10))
                                         .addGap(18, 18, 18)
                                         .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(Emailtxt, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
-                                            .addComponent(PostcodeTxt, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)))
+                                            .addComponent(Emailtxt)
+                                            .addComponent(PostcodeTxt)))
                                     .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                         .addComponent(shipAddress1Txt, javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(shipAddressTxt, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 546, Short.MAX_VALUE)))
@@ -620,13 +622,11 @@ public class CenterOrderForm extends javax.swing.JFrame {
                                     .addGroup(CustOrderPanelLayout.createSequentialGroup()
                                         .addComponent(jLabel14)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(ComboRoofType, 0, 282, Short.MAX_VALUE)
+                                        .addComponent(ComboRoofType, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(roofPriceTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(50, 50, 50)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(imgBox, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))))
+                                .addComponent(imgBox, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(CustOrderPanelLayout.createSequentialGroup()
                         .addGap(246, 246, 246)
                         .addComponent(saveBtn)
@@ -758,7 +758,7 @@ public class CenterOrderForm extends javax.swing.JFrame {
                     .addComponent(jLabel22)
                     .addComponent(ComboGardenCenter, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(centerErr))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(CustOrderPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(resetBtn)
                     .addComponent(saveBtn))
@@ -767,12 +767,12 @@ public class CenterOrderForm extends javax.swing.JFrame {
 
         CustOrderScrollPane.setViewportView(CustOrderPanel);
 
-        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24));
+        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 0, 0));
         jLabel1.setText("TIMBERLAND GARDEN SHEDS - CUSTOMER ORDER FORM.");
         jLabel1.setName("jLabel1"); // NOI18N
 
-        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         LogOutBtn.setText("Log Out");
         LogOutBtn.setName("LogOutBtn"); // NOI18N
         LogOutBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -781,7 +781,7 @@ public class CenterOrderForm extends javax.swing.JFrame {
             }
         });
 
-        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         BackBtn.setText("Back");
         BackBtn.setName("BackBtn"); // NOI18N
         BackBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -790,12 +790,12 @@ public class CenterOrderForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel21.setFont(new java.awt.Font("Tahoma", 1, 11));
+        jLabel21.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(204, 0, 0));
         jLabel21.setText("** All fields are required. **");
         jLabel21.setName("jLabel21"); // NOI18N
 
-        ErrorLbl.setFont(new java.awt.Font("Tahoma", 1, 11));
+        ErrorLbl.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         ErrorLbl.setForeground(new java.awt.Color(204, 0, 0));
         ErrorLbl.setText("Please Fill in the fields marked ***");
         ErrorLbl.setName("ErrorLbl"); // NOI18N
@@ -811,14 +811,14 @@ public class CenterOrderForm extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel1)
                             .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(ErrorLbl, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(CustOrderScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 761, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(ErrorLbl, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(298, 298, 298)
                         .addComponent(BackBtn)
                         .addGap(58, 58, 58)
-                        .addComponent(LogOutBtn)))
-                .addContainerGap(28, Short.MAX_VALUE))
+                        .addComponent(LogOutBtn))
+                    .addComponent(CustOrderScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 834, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

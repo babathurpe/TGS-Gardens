@@ -50,6 +50,7 @@ public class CenterHomeFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("TGS CENTER HOME");
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
@@ -60,9 +61,9 @@ public class CenterHomeFrame extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(240, 240, 240));
         jPanel1.setName("jPanel1"); // NOI18N
 
-        BtnCustForm.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        BtnCustForm.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         BtnCustForm.setForeground(new java.awt.Color(0, 102, 102));
-        BtnCustForm.setText("Customer Form");
+        BtnCustForm.setText("Customer Order Form");
         BtnCustForm.setName("BtnCustForm"); // NOI18N
         BtnCustForm.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,7 +81,7 @@ public class CenterHomeFrame extends javax.swing.JFrame {
             }
         });
 
-        BtnLogOut.setFont(new java.awt.Font("Bodoni MT", 1, 36));
+        BtnLogOut.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         BtnLogOut.setForeground(new java.awt.Color(0, 102, 102));
         BtnLogOut.setText("Log Out");
         BtnLogOut.setName("BtnLogOut"); // NOI18N
@@ -146,7 +147,7 @@ public class CenterHomeFrame extends javax.swing.JFrame {
                 .addGap(116, 116, 116))
         );
 
-        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24));
+        jLabel1.setFont(new java.awt.Font("Modern No. 20", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(153, 0, 0));
         jLabel1.setText("Welcome to TIMBERLAND GARDEN SHEDS Center Home Menu.");
         jLabel1.setName("jLabel1"); // NOI18N
