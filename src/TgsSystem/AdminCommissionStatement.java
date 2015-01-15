@@ -68,6 +68,7 @@ public class AdminCommissionStatement extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Manager :: Center Commission Statement");
+        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
@@ -79,7 +80,7 @@ public class AdminCommissionStatement extends javax.swing.JFrame {
         jLabel7.setText("TIMBERLAND GARDEN SHEDS MANAGER - Commission Statement .");
         jLabel7.setName("jLabel7"); // NOI18N
 
-        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        LogOutBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         LogOutBtn.setText("Log Out");
         LogOutBtn.setName("LogOutBtn"); // NOI18N
         LogOutBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -88,7 +89,7 @@ public class AdminCommissionStatement extends javax.swing.JFrame {
             }
         });
 
-        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        BackBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         BackBtn.setText("Back");
         BackBtn.setName("BackBtn"); // NOI18N
         BackBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -102,12 +103,12 @@ public class AdminCommissionStatement extends javax.swing.JFrame {
 
         SearchTxt.setName("SearchTxt"); // NOI18N
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 2, 11));
+        jLabel2.setFont(new java.awt.Font("Tahoma", 2, 11)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 0, 51));
         jLabel2.setText("Search by Center Name.");
         jLabel2.setName("jLabel2"); // NOI18N
 
-        SearchBtn.setFont(new java.awt.Font("Tahoma", 1, 11));
+        SearchBtn.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         SearchBtn.setText("Search");
         SearchBtn.setName("SearchBtn"); // NOI18N
         SearchBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -189,7 +190,7 @@ public class AdminCommissionStatement extends javax.swing.JFrame {
         SubtotalTxt.setEditable(false);
         SubtotalTxt.setName("SubtotalTxt"); // NOI18N
 
-        BtnCalComm.setFont(new java.awt.Font("Tahoma", 1, 12));
+        BtnCalComm.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         BtnCalComm.setText("Calculate Commission");
         BtnCalComm.setName("BtnCalComm"); // NOI18N
         BtnCalComm.addActionListener(new java.awt.event.ActionListener() {
@@ -204,7 +205,7 @@ public class AdminCommissionStatement extends javax.swing.JFrame {
         jLabel4.setText("Total Commission:");
         jLabel4.setName("jLabel4"); // NOI18N
 
-        BtnPrintComm.setFont(new java.awt.Font("Tahoma", 1, 18));
+        BtnPrintComm.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         BtnPrintComm.setForeground(new java.awt.Color(204, 153, 0));
         BtnPrintComm.setText("Print Commission Statement");
         BtnPrintComm.setName("BtnPrintComm"); // NOI18N
@@ -233,7 +234,7 @@ public class AdminCommissionStatement extends javax.swing.JFrame {
                                     .addComponent(CommTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(SubtotalTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(DepositTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                             .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(BtnCalComm, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -243,21 +244,21 @@ public class AdminCommissionStatement extends javax.swing.JFrame {
                                 .addComponent(BtnPrintComm, javax.swing.GroupLayout.PREFERRED_SIZE, 303, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(84, 84, 84))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(268, 268, 268)
-                        .addComponent(BackBtn)
-                        .addGap(41, 41, 41)
-                        .addComponent(LogOutBtn))
-                    .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jLabel7)))
                 .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addGap(275, 275, 275)
+                .addComponent(BackBtn)
+                .addGap(41, 41, 41)
+                .addComponent(LogOutBtn)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -271,7 +272,6 @@ public class AdminCommissionStatement extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(BtnCalComm)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(jLabel1)
@@ -288,7 +288,7 @@ public class AdminCommissionStatement extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(30, 30, 30)
                         .addComponent(BtnPrintComm, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(40, 40, 40)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BackBtn)
                     .addComponent(LogOutBtn))
