@@ -10,18 +10,18 @@ TGS is a shed sales/construction company that sells garden shed and require a de
 - Print Customer Orders
 
 
-## TGS ADMIN FEATURES 
+### TGS ADMIN FEATURES 
 - Add/Update TGS Center
 - Add/Update Products
 - View Suppliers' Invoices
 - Calculate Centers' Commission
 - View/Edit Employees' Payroll
 
-## TGS CENTER FEATURES
+### TGS CENTER FEATURES
 - Fill Out Customer Order Form
 - View Customer Invoice
 - View Center's Commission Statement
 - Print Customer Invoice
 
-## ADD PRODUCT FEATURES 
+### ADD PRODUCT FEATURES 
 - Upload Image (types restricted to JPG, GIF, PNG)
