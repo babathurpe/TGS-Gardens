@@ -4,7 +4,7 @@ TGS System was built with Java using Swing for the GUI as a personal project dur
 
 TGS is a shed sales/construction company that sells garden shed and require a desktop application to computerized most of their daily operations. Some of the features needed include the following:
 
-## FEATURES
+### FEATURES
 - Login System for the TGS Admin and TGS Centres (Outlets)
 - Generate Unique Order numbers for customers
 - Print Customer Orders
